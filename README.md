@@ -1,10 +1,12 @@
 # PluralSight Login Page Clone
-A simple, responsive clone of the **_PluralSight Login Page_** - [View](http://esankole.gq/todolist/)
+A simple, responsive clone of the **_PluralSight Login Page_** - [View](https://bankole2000.github.io/psloginclone/)
 
+[![Practice](https://img.shields.io/badge/Practice-CSS-blue.svg)](https://bankole2000.github.io/psloginclone/)
 
-[![Practice](https://img.shields.io/badge/Practice-CSS-blue.svg)](http://www.esankole.gq/todolist/)
+Here's links to both the original and this clone for quick comparison
+[View Original](https://app.pluralsight.com/id?redirectTo=%2Fid%2Fdashboard) || [View This clone](https://bankole2000.github.io/psloginclone/)
 
-_<p align="center">"Good artists copy. Great artists steal" - Picaso_</p>
+_<p align="center">"Good artists copy. Great artists ~~create from nothing using only innate talent and/or God-given magic~~ steal" - Picaso_</p>
 
 <div align="center" style="text-align:center; margin:auto;">
 <img align="center" src="https://i.imgur.com/EgCvXyK.png" width="150"/>
