@@ -6,7 +6,7 @@ A simple, responsive clone of the **_PluralSight Login Page_** - [View](https://
 Here's links to both the original and this clone for quick comparison
 [View Original](https://app.pluralsight.com/id?redirectTo=%2Fid%2Fdashboard) || [View This clone](https://bankole2000.github.io/psloginclone/)
 
-_<p align="center">"Good artists copy. Great artists ~~create from nothing using only innate talent and/or God-given magic~~ steal" - Picaso_</p>
+_<p align="center">"Good artists copy. __Great__ artists ~~create from nothing using only innate talent and/or God-given magic~~ __steal__" - Picaso_</p>
 
 <div align="center" style="text-align:center; margin:auto;">
 <img align="center" src="https://i.imgur.com/EgCvXyK.png" width="150"/>
@@ -48,24 +48,26 @@ CSS =>
   margin-bottom: 1.2rem;
   align-items: center;
 }
-
 .or .bar{
   flex: auto;
   border:none;
   height: 1px;
   background: #aaa;
 }
-
 .or span {
   color: #ccc;
   padding: 0 0.8rem;
 }
 ``` 
 
-Also chose to use [Materialize CSS Toasts](https://materializecss.com/toasts.html) instead of crappy window methods (like `alert()` and `confirm()`). Added the ToDo Counter Badge as well.
-```javascript
-M.init(); // Initializes Materialize JS
-M.toast({html:'',displayLength:1200});
+Here's the gist of media queries =>
+```css
+@media(min-width: 1200px;){
+  //Larger Screens
+}
+@media(max-width: 768px;){
+  //Tablets and Down
+}
 ```
 ## Future Development
   Just some ideas in my head for improvements I might come back to this to implement.
@@ -82,5 +84,5 @@ Contributions are highly welcome. Feel free to fork, clone, make pull requests, 
 * Thanks to [@torvalds](https://github.com/torvalds) For Making the world a better place
 * And To anyone reading this... _You're awesome!_
 
-That being said
-_<p align="center">Adieu, I must return to Code mountain to continue my training the Ways of  Ninjustu</p>_
+
+_<p align="center">"The Master has **failed** more times than the beginner has even **tried**" - Bruce Lee</p>_
