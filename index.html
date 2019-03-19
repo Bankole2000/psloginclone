@@ -37,7 +37,7 @@
         <a href="#" class="secondary-btn">Create an account</a>
       </div>
       <footer id="main-footer">
-        <p>Copyright &copy; 2019, Pluralsight All rights reserved</p>
+        <p>Copyright &copy; <span id="year"></span> , Pluralsight All rights reserved</p>
         <div><a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></div>
       </footer>
     </div>
@@ -53,6 +53,9 @@
     </div>
   </div>
 
-
+<script>
+  let today = new Date();
+  document.getElementById("year").innerHTML = today.getFullYear();
+</script>
 </body>
 </html>
